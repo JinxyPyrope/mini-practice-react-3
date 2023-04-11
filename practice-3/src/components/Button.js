@@ -1,11 +1,7 @@
 import React from "react"
 
-const Button = number => {
-  return (
-    <div>
-      <button onClick={() => alert("Clicked!")}>Click Me</button>
-    </div>
-  )
+function Button() {
+  return <div>Button</div>
 }
 
 export default Button
